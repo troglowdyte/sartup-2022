@@ -1,0 +1,58 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-family: 'Letter Gothic','Helvetica Neue',Helvetica,Arial,sans-serif;
+    background: url(red_mushie.jpeg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1 {
+    color: rgb(214, 212, 172);
+    font-family: 'Letter Gothic','Helvetica Neue',Helvetica,Arial,sans-serif;
+    /* text-transform: uppercase; */
+    font-size: 3rem;
+    /* margin-left: 20px; */
+    /* margin-top: 20px; */
+}
+
+.buffer {
+    height: 17rem;
+}
+
+hr {
+    margin: 20px auto;
+    border: 4px solid rgb(157, 53, 46);
+    opacity: 1;
+    max-width: 250px;
+}
+
+.btn-xl {
+    padding: 1rem 2rem;
+}
+
+.btn {
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 300px;
+}
+
+.btn-warning {
+    background-color: rgb(157, 53, 46);
+    border-color: rgb(157, 53, 46);
+    /* margin-left: 20px; */
+}
+
+.btn-warning:hover {
+    background-color: rgb(213, 73, 63);
+    border-color:rgb(213, 73, 63);
+    border-width: 5px;
+}
+
+.btn-warning:active {
+    background-color: rgb(213, 73, 63);
+    border-color:rgb(213, 73, 63);
+}
